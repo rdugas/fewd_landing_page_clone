@@ -6,7 +6,7 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-html,  object, iframe,
+html, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -32,9 +32,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
 body {
-  line-height: 1;
+  line-height: 1;  
+  margin: 0;
 }
+
 ol, ul {
   list-style: none;
 }
@@ -58,17 +61,26 @@ div, section {
 
 /*Custom Styles*/
 .content {
-    padding: 0 15px;
+    padding: 0 .938rem;
+    margin: 0 auto;
+    
 }
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top 0px;
+    border-bottom: 1px solid #DDD;
+   z-index: 9999;
 }
 .top-navigation > .content {
     margin: 0 auto;
     width: 50rem;
     height: 70px;
+     
 }
+
 .top-navigation .logo {
     height: 70px;
 }
@@ -102,13 +114,42 @@ div, section {
   height: 70px;
 }
 
-.intro {
+.introduction {
     background-image: url(http://thinkful-ed.github.io/karma-clone/img/first-background.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
     overflow: auto;
+}
+
+.introduction h1, .introduction h3{
+  color: white;
+  text-align: center;
+}
+
+.introduction h1{
+  font-size: 3.125rem;
+  margin-top: 17.5rem;
+}
+
+.introduction h3{
+  font-size: 1.563rem;
+  margin-top: 1.25rem;
+}
+
+.introduction .buttons{
+  margin-top: 1.25rem;
+  text-align: center;
+}
+
+.buttons button{
+  background-color: orange;
+  color: white;
+  height: 2.8rem;
+  width: 8rem;
+  border-radius: 7px;
+  font-size: .9em;
 }
 
 .main {
