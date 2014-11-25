@@ -56,9 +56,17 @@ div, section {
     background-color: #fff;
 }
 .top-navigation > .content {
-    width: 60rem;
+    width: 50rem;
     height: 4.375rem;
     margin: 0 auto;
+}
+
+.top-navigation > .img {
+  height: 70px;
+}
+
+.logo {
+  height: 70px;
 }
 
 .intro {
