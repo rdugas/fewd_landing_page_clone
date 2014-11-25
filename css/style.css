@@ -2,6 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+html {
+  -webkit-font-smoothing: antialiased;
+}
 
 html,  object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -81,6 +84,11 @@ div, section {
 .top-navigation .links li {
   display: inline-block;
   margin-left: 1em;
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
 }
 
 .logo {
