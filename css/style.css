@@ -55,6 +55,10 @@ div, section {
 /*Custom Styles*/
 .content {
     padding: 0 15px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px; 
+    color: #838994; 
+    letter-spacing: 0.03em;
 }
 /* Navigation Section */
 .top-navigation {
@@ -71,10 +75,12 @@ div, section {
 
 .top-navigation .links {
   float: right;
+  margin-top: 1.5em
 }
 
 .top-navigation .links li {
   display: inline-block;
+  margin-left: 1em;
 }
 
 .logo {
