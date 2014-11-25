@@ -47,22 +47,34 @@ table {
   border-spacing: 0;
 }
 
+/*Debug*/
 div, section {
     border: 1px solid Chocolate;
 }
 
+/*Custom Styles*/
+.content {
+    padding: 0 15px;
+}
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
 }
 .top-navigation > .content {
-    width: 50rem;
-    height: 4.375rem;
     margin: 0 auto;
+    width: 50rem;
+    height: 70px;
+}
+.top-navigation .logo {
+    height: 70px;
 }
 
-.top-navigation > .img {
-  height: 70px;
+.top-navigation .links {
+  float: right;
+}
+
+.top-navigation .links li {
+  display: inline-block;
 }
 
 .logo {
