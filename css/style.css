@@ -196,5 +196,40 @@ div, section {
 }
 
 .footer {
-  height: 6em;
+  padding-bottom: 9.75rem;
+}
+
+.footer .content {
+  text-align: center;
+}
+
+.footer .sociallist > li {
+  display: inline-block;
+  border: 1px solid #eaeebc;
+  border-radius: 1.25rem;
+  width: 2rem;
+  height: 2rem;
+  margin: 1.25rem 5px;
+  text-align: center;
+  padding: .5rem .5rem;
+}
+
+.footer h5 {
+  margin-top: 2rem;
+}
+
+.footer h6 {
+  font-weight: lighter;
+}
+
+.fa-twitter {
+  color: #55acee;
+}
+
+.fa-facebook {
+  color: #4c66a4;
+}
+
+.fa-instagram {
+  color: #3f729b;
 }
